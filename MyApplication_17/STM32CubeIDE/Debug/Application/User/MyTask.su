@@ -1,0 +1,2 @@
+MyTask.c:22:6:Uart_Task	24	static
+MyTask.c:89:6:HAL_UART_RxCpltCallback	16	static

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<iarProjectConnection name="TouchGFX" oneShot="false">
+  <includePath>
+    <path>$PROJ_DIR$/../Middlewares/ST/touchgfx/framework/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/fonts/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/images/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/texts/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/gui/include</path>
+  </includePath>
+  <asmIncludePath></asmIncludePath>
+  <defines>
+    <define>USE_BPP=24</define>
+  </defines>
+  <asmDefines></asmDefines>
+  <files>
+    <group name="gui">
+      <group name="common">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/common/FrontendApplication.cpp</path>
+      </group>
+      <group name="model">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/model/Model.cpp</path>
+      </group>
+      <group name="screen1_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen1_screen/Screen1View.cpp</path>
+      </group>
+    </group>
+    <group name="generated">
+      <group name="fonts">
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/CachedFont.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Font_Asap_Regular_20_4bpp_0.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/FontCache.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/GeneratedFont.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Kerning_Asap_Regular_20_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Table_Asap_Regular_20_4bpp.cpp</path>
+      </group>
+      <group name="gui_generated">
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp</path>
+      </group>
+      <group name="images">
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/BitmapDatabase.cpp</path>
+      </group>
+      <group name="texts">
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/LanguageGb.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/Texts.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/TypedTextDatabase.cpp</path>
+      </group>
+    </group>
+    <group name="Lib">
+      <path>../Middlewares/ST/touchgfx/lib/core/cortex_m7/IAR8.x/touchgfx_core.a</path>
+    </group>
+  </files>
+</iarProjectConnection>

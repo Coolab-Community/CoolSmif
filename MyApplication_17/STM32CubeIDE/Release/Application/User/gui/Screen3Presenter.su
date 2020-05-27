@@ -1,0 +1,6 @@
+ModelListener.hpp:20:18:virtual void ModelListener::notifyLogChanged()	0	static
+Screen3Presenter.hpp:28:13:Screen3Presenter::~Screen3Presenter()	0	static
+Screen3Presenter.cpp:10:6:virtual void Screen3Presenter::activate()	0	static
+Screen3Presenter.hpp:28:13:virtual Screen3Presenter::~Screen3Presenter()	8	static
+Screen3Presenter.hpp:28:13:virtual void* Screen3Presenter::_ZThn4_N16Screen3PresenterD1Ev()	0	static
+Screen3Presenter.cpp:4:1:Screen3Presenter::Screen3Presenter(Screen3View&)	8	static
