@@ -1,5 +1,5 @@
 # Coolsmif
-STM32F7 - touchgfx & FreeRTOS project with UART, I2C_DMA (slave), LWIP and Modbus tcp/ip peripherals.
+STM32F7 - touchgfx & FreeRTOS project with UART, I2C_DMA (slave) peripherals.
 
 This project allow you to display on the main screen differents status with a scrollwheel and in secondary screen you can check the logs provided by an automate (RS232 protocol). The logs are parsed and send through I2C_DMA to a master (See CoolBox project with I2C).  
 
